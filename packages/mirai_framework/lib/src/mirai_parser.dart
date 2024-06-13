@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 abstract class MiraiParser<T> {
   const MiraiParser();
 
-  String get type;
+  String get type => runtimeType.toString();
 
   T getModel(Map<String, dynamic> json);
 
