@@ -9,5 +9,5 @@ abstract class MiraiParser<T> {
 
   Widget parse(BuildContext context, T model);
 
-  String get compParserType => null;
+  String get compParserType;
 }
