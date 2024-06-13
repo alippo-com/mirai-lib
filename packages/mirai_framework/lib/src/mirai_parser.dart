@@ -8,4 +8,6 @@ abstract class MiraiParser<T> {
   T getModel(Map<String, dynamic> json);
 
   Widget parse(BuildContext context, T model);
+
+  String get compParserType => null;
 }
